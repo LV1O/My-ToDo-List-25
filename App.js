@@ -3,8 +3,11 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 
 export default function App() {
   return (
+    
     <View style={styles.container}>
-      <Text>My To-Do List</Text>
+      <Text>Buy Milk</Text>
+      <Text>Buy Bread</Text>
+      <Text>Buy Eggs</Text>
       <StatusBar style="auto" />
 
       <View style={styles.buttonContainer}>
