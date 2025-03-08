@@ -5,9 +5,9 @@ export default function App() {
   return (
     
     <View style={styles.container}>
-      <Text>Buy Milk</Text>
-      <Text>Buy Bread</Text>
-      <Text>Buy Eggs</Text>
+      <Text style={styles.todos}>Buy Milk</Text>
+      <Text style={styles.todos}>Buy Bread</Text>
+      <Text style={styles.todos}>Buy Eggs</Text>
       <StatusBar style="auto" />
 
       <View style={styles.buttonContainer}>
@@ -45,5 +45,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
+
+  todos: {
+    backgroundColor: "#EDBF40",
+    color: "#fff",
+    padding: 10,
+    borderRadius: 7,
+    margin: 7,
+    fontSize: 20,
+    fontWeight: "bold",
+  },
+
 });
 
